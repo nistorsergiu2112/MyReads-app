@@ -7,6 +7,9 @@ body {
 body, .app {
   background: white;
 }
+h1, h2 {
+ font-family: 'Titillium Web', sans-serif;
+}
 
 /* main page */
 
@@ -62,6 +65,22 @@ body, .app {
   font-size: 0;
 }
 
+.member-bar {
+  width: 100%;
+  display: flex;
+}
+.welcome-text {
+  margin-left: 10px;
+  color: lightgrey;
+  margin-bottom: 1px;
+}
+.logout-button {
+  margin-right: 10px;
+  margin-left: auto;
+}
+.footer-text {
+  text-align: center;
+}
 /* search page */
 
 .search-books-bar {
@@ -171,4 +190,57 @@ body, .app {
   padding: 20px 10px 0;
   text-align: center;
   font-size: 0.8em;
+}
+
+/* icons styles */
+
+.fa-book-reader {
+  font-size: 2.5em;
+  color: white;
+}
+.fa-heart {
+  color: red;
+}
+
+/* Footer */
+
+.footer {
+
+}
+
+/* Login */
+
+.form-login {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+.btn-login {
+  margin-top: 10px;
+  margin-left: 2px;
+}
+.btn-container {
+  text-align: center;
+}
+.login-message {
+  font-size: 1em;
+  color: dimgrey;
+  text-align: center;
+}
+.loading-text {
+  color: slategrey;
+}
+.loading-content {
+  text-align: center;
+}
+.loading-component {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
 }

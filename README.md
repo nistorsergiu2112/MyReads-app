@@ -1,6 +1,6 @@
 # MyReads app
 
-MyReads is a simple book management app that was built in Udacity Front-End Nanodegree Program.
+MyReads is a simple book management app.
 
 ## Instructions
 
